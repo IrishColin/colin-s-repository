@@ -1,0 +1,26 @@
+#school shop
+#only buy one thing
+#lists
+#eg.in your bag is(£8 and marker)
+
+bag=["£10"]
+print("what would you like:£2marker,£3pen,£1pencil")
+input=input()
+if input=="pen":
+  del bag[0]
+  bag.append("£7")
+  bag.append("pen")
+  
+elif input=="marker":
+  del bag[0]
+  bag.append("£8")
+  bag.append("marker")
+  
+elif input=="pencil":
+  del bag[0]
+  bag.append("£9")
+  bag.append("pencil")
+  
+print("now in your bag is:")
+print(bag)
+print ("thank you for using my shop")
