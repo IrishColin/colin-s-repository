@@ -1,0 +1,158 @@
+print("Your Tmetable")
+
+print("list your timetable from the start of mondat to the end of friday")
+print("monday 1st class")
+mon1=input()
+print("monday 2nd class")
+mon2=input()
+print("monday 3rd class")
+mon3=input()
+print("monday 4th class")
+mon4=input()
+print("monday 5th class")
+mon5=input()
+print("monday 6th class")
+mon6=input()
+print("tuesday 1st class")
+tue1=input()
+print("tuesday 2nd class")
+tue2=input()
+print("tuesday 3rd class")
+tue3=input()
+print("tuesday 4th class")
+tue4=input()
+print("tuesday 5th class")
+tue5=input()
+print("tuesday 6th class")
+tue6=input()
+print("wednesday 1st class")
+wed1=input()
+print("wednesday 2nd class")
+wed2=input()
+print("wednesday 3rd class")
+wed3=input()
+print("wednesday 4th class")
+wed4=input()
+print("wednesday 5th class")
+wed5=input()
+print("wednesday 6th class")
+wed6=input()
+print("thursday 1st class")
+thu1=input()
+print("thursday 2nd class")
+thu2=input()
+print("thursday 3rd class")
+thu3=input()
+print("thursday 4th class")
+thu4=input()
+print("thursday 5th class")
+thu5=input()
+print("thursday 6th class")
+thu6=input()
+print("friday 1st class")
+fri1=input()
+print("friday 2nd class")
+fri2=input()
+print("friday 3rd class")
+fri3=input()
+print("friday 4th class")
+fri4=input()
+
+print(" type 1 if you would like to see your time table, type 2 if you would like to use class finder")
+inpu=input()
+
+if inpu=="1":
+ print("MONDAY")
+ print(mon1)
+ print(mon2)
+ print(mon3)
+ print(mon4)
+ print(mon5)
+ print(mon6)
+ print("TUESDAY")
+ print(tue1)
+ print(tue2)
+ print(tue3)
+ print(tue4)
+ print(tue5)
+ print(tue6)
+ print("WEDNESDAY")
+ print(wed1)
+ print(wed2)
+ print(wed3)
+ print(wed4)
+ print(wed5)
+ print(wed6)
+ print("THURSDAY")
+ print(thu1)
+ print(thu2)
+ print(thu3)
+ print(thu4)
+ print(thu5)
+ print(thu6)
+ print("FRIDAY")
+ print(fri1)
+ print(fri2)
+ print(fri3)
+ print(fri4)
+
+elif inpu=="2":
+ print("to find your class type the first three letters of day then the number  eg.fri3, tue1, thu5")
+day=input()
+
+if day=="mon1":
+  print(mon1)
+elif day=="mon2":
+  print(mon2)
+elif day=="mon3":
+  print(mon3)
+elif day=="mon4":
+  print(mon4)
+elif day=="mon5":
+  print(mon5)
+elif day=="mon6":
+  print(mon6)
+elif day=="tue1":
+  print(tue1)
+elif day=="tue2":
+  print(tue2)
+elif day=="tue3":
+  print(tue3)
+elif day=="tue4":
+  print(tue4)
+elif day=="tue5":
+  print(tue5)
+elif day=="tue6":
+  print(tue6)
+elif day=="wed1":
+  print(wed1)
+elif day=="wed2":
+  print(wed2)
+elif day=="wed3":
+  print(wed3)
+elif day=="wed4":
+  print(wed4)
+elif day=="wed5":
+  print(wed5)
+elif day=="wed6":
+  print(wed6)
+elif day=="thu1":
+  print(thu1)
+elif day=="thu2":
+  print(thu2)
+elif day=="thu3":
+  print(thu3)
+elif day=="thu4":
+  print(thu4)
+elif day=="thu5":
+  print(thu5)
+elif day=="thu6":
+  print(thu6)
+elif day=="fri1":
+  print(fri1)
+elif day=="fri2":
+  print(fri2)
+elif day=="fri3":
+  print(fri3)
+elif day=="fri4":
+  print(fri4)
